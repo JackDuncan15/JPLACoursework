@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158295898691",
+    "project_id": "fir-authentication25-85f05",
+    "storage_bucket": "fir-authentication25-85f05.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158295898691:android:2041086e57dc3161d5b2f6",
+        "android_client_info": {
+          "package_name": "com.example.courseworkjplapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEkxD1WIxwAKB6MRTxmgxmXIJiwe-h_J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
