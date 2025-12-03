@@ -16,10 +16,10 @@
         android:alpha="0.9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.294"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.541"
+        app:layout_constraintVertical_bias="0.591"
         app:srcCompat="@drawable/background_image_blurred" />
 
     <androidx.appcompat.widget.SearchView
@@ -34,9 +34,10 @@
         android:queryHint="Search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
+        app:layout_constraintVertical_bias="0.117" />
 
     <ImageView
         android:id="@+id/img_CornerLogo"
@@ -77,11 +78,11 @@
         android:textSize="20sp"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/s_SearchBar"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/s_SearchBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369"
+        app:layout_constraintVertical_bias="0.308"
         app:strokeColor="#1F2B38"
         app:strokeWidth="2dp" />
 
@@ -96,11 +97,10 @@
         android:textSize="20sp"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/s_SearchBar"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/s_SearchBar"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Hiragana"
+        app:layout_constraintStart_toStartOf="@+id/btn_Hiragana"
         app:layout_constraintTop_toBottomOf="@+id/btn_Hiragana"
-        app:layout_constraintVertical_bias="0.157"
+        app:layout_constraintVertical_bias="0.17"
         app:strokeColor="#1F2B38"
         app:strokeWidth="2dp" />
 
@@ -115,11 +115,10 @@
         android:textSize="20sp"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/s_SearchBar"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/s_SearchBar"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Katakana"
+        app:layout_constraintStart_toStartOf="@+id/btn_Katakana"
         app:layout_constraintTop_toBottomOf="@+id/btn_Katakana"
-        app:layout_constraintVertical_bias="0.288"
+        app:layout_constraintVertical_bias="0.299"
         app:strokeColor="#1F2B38"
         app:strokeWidth="2dp" />
 

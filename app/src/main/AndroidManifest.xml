@@ -15,6 +15,9 @@
         android:theme="@style/Theme.CourseWorkJPLApp"
         tools:targetApi="31">
         <activity
+            android:name=".Hiragana_Quiz"
+            android:exported="false" />
+        <activity
             android:name=".Dictionary"
             android:exported="false" />
         <activity
