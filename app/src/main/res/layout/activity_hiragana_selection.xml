@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hiragana_selection">
+
+    <GridLayout
+        android:id="@+id/gridKana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:alignmentMode="alignBounds"
+        android:columnCount="3"
+        android:rowCount="5"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Row 1 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_a"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="A"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_k"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="K"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_s"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="S"
+            android:textSize="24sp" />
+
+        <!-- Row 2 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_t"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="T"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_n"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="N"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_h"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="H"
+            android:textSize="24sp" />
+
+        <!-- Row 3 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_m"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="M"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_y"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="Y"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_r"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="R"
+            android:textSize="24sp" />
+
+        <!-- Row 4 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_combo"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="Combo"
+            android:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_w"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="W"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_variants"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checkable="true"
+            android:text="Variants"
+            android:textSize="13sp" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
