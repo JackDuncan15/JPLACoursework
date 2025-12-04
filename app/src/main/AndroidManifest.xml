@@ -21,7 +21,7 @@
             android:name=".Dictionary"
             android:exported="false" />
         <activity
-            android:name=".Katakana"
+            android:name=".Katakana_selection"
             android:exported="false" />
         <activity
             android:name=".Hiragana_selection"

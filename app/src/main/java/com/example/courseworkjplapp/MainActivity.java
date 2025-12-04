@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btn_Katakana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent k = new Intent(MainActivity.this, Katakana.class);
+                Intent k = new Intent(MainActivity.this, Katakana_selection.class);
                 startActivity(k);
             }
         });

@@ -22,23 +22,6 @@
         app:layout_constraintVertical_bias="0.591"
         app:srcCompat="@drawable/background_image_blurred" />
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/s_SearchBar"
-        android:layout_width="321dp"
-        android:layout_height="35dp"
-        android:alpha="1"
-        android:background="@drawable/background"
-        android:backgroundTint="#FFFFFF"
-        android:outlineAmbientShadowColor="#000000"
-        android:outlineProvider="bounds"
-        android:queryHint="Search"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.388"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
-
     <ImageView
         android:id="@+id/img_CornerLogo"
         android:layout_width="62dp"
@@ -82,7 +65,7 @@
         app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308"
+        app:layout_constraintVertical_bias="0.27"
         app:strokeColor="#1F2B38"
         app:strokeWidth="2dp" />
 
