@@ -76,7 +76,7 @@ public class Hiragana  implements Parcelable {
         Master_List.add(new Hiragana("\u306F", "ha", "base", "h"));
         Master_List.add(new Hiragana("\u3072", "hi", "base", "h"));
         Master_List.add(new Hiragana("\u3075", "fu", "base", "h"));
-        Master_List.add(new Hiragana("\u3077", "he", "base", "h"));
+        Master_List.add(new Hiragana("\u3078", "he", "base", "h"));
         Master_List.add(new Hiragana("\u307B", "ho", "base", "h"));
         //M-section
         Master_List.add(new Hiragana("\u307E", "ma", "base", "m"));

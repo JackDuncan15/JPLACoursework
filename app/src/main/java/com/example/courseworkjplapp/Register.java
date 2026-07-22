@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -33,6 +34,7 @@ public class Register extends AppCompatActivity {
         usersRef = FirebaseDatabase.getInstance("https://fir-authentication25-85f05-default-rtdb.europe-west1.firebasedatabase.app/").getReference("users");
         mAuth = FirebaseAuth.getInstance();
         btn_RegisterAcc = (Button) findViewById(R.id.btn_RegisterAcc);
+        btn_RegisterAcc.setBackgroundColor(Color.parseColor("#0077CC"));
         btn_RegisterAcc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
